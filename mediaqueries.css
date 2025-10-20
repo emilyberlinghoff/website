@@ -101,3 +101,10 @@
     text-align: justify;
   }
 }
+
+/* Slightly larger buttons & links on small screens */
+@media screen and (max-width: 600px) {
+  .btn { padding: 1.1rem; width: 100%; max-width: 18rem; }
+  .nav-links li a { line-height: 2.4rem; }
+  .icon { height: 2.4rem; }
+}

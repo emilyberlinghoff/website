@@ -25,3 +25,12 @@ if (btn) {
     localStorage.setItem('theme', root.classList.contains('dark') ? 'dark' : 'light');
   });
 }
+
+// Highlight active nav link by URL
+const here = location.pathname.split('/').pop() || 'index.html';
+document.querySelectorAll('.nav-links a').forEach(a => {
+  const href = a.getAttribute('href');
+  if (!href) return;
+  const file = href.includes('.html') ? href : 'index.html';
+  if (file === here) a.style.textDecorationColor = 'var(--brand)';
+});

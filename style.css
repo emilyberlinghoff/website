@@ -65,6 +65,10 @@ nav {
   font-size: 1.5rem;
 }
 
+.nav-links a {
+  cursor: pointer;
+}
+
 a {
   color: var(--brand);
   text-decoration: none;

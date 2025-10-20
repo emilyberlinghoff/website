@@ -1,0 +1,27 @@
+# Dependencies / build
+node_modules/
+dist/
+build/
+.cache/
+.tmp/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Env & logs
+.env
+.env.*
+*.log
+logs/
+debug.log
+
+# Backups / temp
+*.swp
+*.bak
+*.tmp
+
+# Personal docs (consider keeping private)
+Transcript.pdf

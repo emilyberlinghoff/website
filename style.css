@@ -346,7 +346,7 @@ section.visible {
   border-radius: 2rem;
   border: var(--brand) 0.1rem solid;
   border-color: var(--brand);
-  text-align: center;
+  text-align: left;
 }
 
 .section-container {
